@@ -5,6 +5,12 @@
     <artifactId>LABOR0001</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>LABOR0002_DOMAIN</module>
+    <module>LABOR0003_EJB</module>
+        <module>LABOR0004_REMOTE</module>
+    <module>LABOR0005_WEB</module>
+  </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
