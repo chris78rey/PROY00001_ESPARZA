@@ -12,10 +12,6 @@
             <h:form id="VClasifArbolCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{vClasifArbolController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateVClasifArbolLabel_id}" for="id" />
-                        <p:inputText id="id" value="#{vClasifArbolController.selected.id}" title="#{bundle.CreateVClasifArbolTitle_id}" required="true" requiredMessage="#{bundle.CreateVClasifArbolRequiredMessage_id}"/>
-                        <p:outputLabel value="#{bundle.CreateVClasifArbolLabel_idPadre}" for="idPadre" />
-                        <p:inputText id="idPadre" value="#{vClasifArbolController.selected.idPadre}" title="#{bundle.CreateVClasifArbolTitle_idPadre}" />
                         <p:outputLabel value="#{bundle.CreateVClasifArbolLabel_nivel}" for="nivel" />
                         <p:inputText id="nivel" value="#{vClasifArbolController.selected.nivel}" title="#{bundle.CreateVClasifArbolTitle_nivel}" />
                         <p:outputLabel value="#{bundle.CreateVClasifArbolLabel_s}" for="s" />
